@@ -1,0 +1,167 @@
+body {
+  font-family: 'Cinzel Decorative', cursive;
+  background-image: url("images/gotDirewolf.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  text-align: center;
+  font-size: 1em;
+}
+
+h1 {
+ margin-bottom: 8px;
+ font-size: 2em;
+ width: 100%;
+ padding-top: 20px;
+ color: darkred;
+}
+
+.statistics {
+  color: #680505;
+  font-weight: bolder;
+  background-color: antiquewhite;
+  text-align: center;
+}
+
+.brought-to-you {
+  background-color: #680505;
+  color: white;
+  width: 100%;
+  height: 20px;
+  font-size: .4em;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.icon-container {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.icons {
+  width: 28px;
+}
+
+.wolf {
+  width: 36px;
+}
+
+.id-container {
+   height: 100%;
+   width: 100%;
+   margin-left: 0 20px 0 20px;
+  }
+
+.header-top {
+  background-color: #515454;
+  color: white;
+  text-align: center;
+}
+
+.card {
+  font-weight: 'Cinzel', serif;
+  border: 3px solid gray;
+  background-color: lightgray;
+  height: 25%;
+  width: 95%;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.jon-image,
+.arya-image,
+.bran-image,
+.sansa-image {
+  float: left;
+  border: 2px solid darkred;
+  width: 60px;
+  margin: 12px 0 0 15px;
+}
+.kills {
+  text-align: center;
+
+}
+
+.caption {
+  font-size: 1em;
+}
+
+.number {
+  font-size: 2.8em;
+
+}
+.attempted  {
+  font-size: .7em;
+}
+
+.tiny-icon {
+  width: 40px;
+  float: left;
+  margin: 0 22px;
+}
+
+.stark-name {
+  font-size: 1.4em;
+  border-top: 1px solid gray;
+  padding-top: 25px;
+  text-align: center;
+  width: 100%;
+  margin: 25px 0;
+}
+
+@media screen and (min-width:700px) {
+
+  h1 {
+    font-size: 3em;
+  }
+  .icons {
+    width: 40px;
+    margin-left: 20px;
+  }
+  .wolf {
+    width: 50px;
+  }
+  .id-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+   }
+
+  .card {
+    flex-grow: 1;
+    border-style: none;
+    width: 45%;
+    }
+
+  .jon-image,
+  .arya-image,
+  .bran-image,
+  .sansa-image {
+
+   border: 2px solid darkred;
+   width: 20%;
+   margin: 6px 0 0 15px;
+   border-radius: 50%;
+  }
+  .brought-to-you,
+  .statistics {
+    width: 70%;
+    font-size: 1em;
+    text-align: center;
+    margin: 6px auto;
+
+  }
+  .jon,
+  .bran {
+    margin-left: 0;
+  }
+
+}
